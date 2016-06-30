@@ -2,11 +2,11 @@ PRODUCT_BRAND ?= JDCTeam
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    vendor/jdc/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # SuperSU
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/supersu/supersu.zip:system/supersu/supersu.zip
+    vendor/jdc/prebuilt/common/supersu/supersu.zip:system/supersu/supersu.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
@@ -18,8 +18,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false 
 
 DEVICE_PACKAGE_OVERLAYS += \
-    vendor/aosp/overlay/common \
-    vendor/aosp/overlay/dictionaries
+    vendor/jdc/overlay/common \
+    vendor/jdc/overlay/dictionaries
 
 # Thank you, please drive thru!
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -31,7 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # EXT4/F2FS format script
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/bin/format.sh:install/bin/format.sh
+    vendor/jdc/prebuilt/common/bin/format.sh:install/bin/format.sh
     
 # Extra tools
 PRODUCT_PACKAGES += \
@@ -70,24 +70,24 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     
 # For keyboard gesture typing
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
+    vendor/jdc/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
 # LEDify
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/bin/ledify:system/bin/ledify
+    vendor/jdc/prebuilt/common/bin/ledify:system/bin/ledify
     
 # init.d support
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/aosp/prebuilt/common/bin/sysinit:system/bin/sysinit
+    vendor/jdc/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/jdc/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # JDC-specific init file
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/init.local.rc:root/init.jdc.rc
+    vendor/jdc/prebuilt/common/etc/init.local.rc:root/init.jdc.rc
 
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
+    vendor/jdc/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt ConsumerIR
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/lib/hw/consumerir.msm8960.old:system/lib/hw/consumerir.msm8960.old
+    vendor/jdc/prebuilt/common/lib/hw/consumerir.msm8960.old:system/lib/hw/consumerir.msm8960.old
     
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
@@ -117,8 +117,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # BSOD Killer
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/bin/bsod_killer:system/bin/bsod_killer
+    vendor/jdc/prebuilt/common/bin/bsod_killer:system/bin/bsod_killer
 
 # Changelog
 PRODUCT_COPY_FILES += \
-    vendor/aosp/Changelog.md:system/etc/Changelog.md
+    vendor/jdc/Changelog.md:system/etc/Changelog.md
