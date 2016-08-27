@@ -53,6 +53,12 @@
     * Substratum: update to v214
     * Gallery2: completely reworked and updated
     * Blur: add back libuiblur.so library and add an option in Settings-->Display for enabling/disabling blur effect (default: OFF)
+    * HW button rebindings: fixes and updates
+    * Proprietary blobs: update to GPE I9505GUEUDPF1
+    * jflte: enable native time service
+    * jflte: update GPS headers
+    * init: general fixes + fixed some compiling warns
+    * Drop SnapdragonCamera in favour of stock AOSP Camera2 app
 
 #### 2016/08/12 (Stable 6)
 * Kernel
