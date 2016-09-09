@@ -33,12 +33,17 @@
 
 ### Changelog (short)
 
-#### Ongoing changes... (Stable 7)
+#### Ongoing changes... (Stable 8)
+
+#### 2016/09/10 (Stable 7)
 * Kernel
     * General code updates
     * Ramdisk: tune Thermal values
     * Ramdisk: small fixes and cleaning on scripts
     * Ramdisk: set sys.io.scheduler at boot
+    * Ramdisk: port updates from N and handle scripts in the same way
+    * Merged latest 3.18 fixes/updates for ext4
+    * Ported some updates from N branch
 * ROM
     * Added BackupTools for gApps
     * Immersive recents: updates, fixes and cleaning
@@ -52,13 +57,19 @@
     * APN: small fixes for T-Mobile MK DATA access
     * Substratum: update to v214
     * Gallery2: completely reworked and updated
-    * Blur: add back libuiblur.so library and add an option in Settings-->Display for enabling/disabling blur effect (default: OFF)
+    * Blur: add back libuiblur.so library and add an option in Settings-->Display for enabling/disabling blur effect (default: ON)
     * HW button rebindings: fixes and updates
     * Proprietary blobs: update to GPE I9505GUEUDPF1
     * jflte: enable native time service
     * jflte: update GPS headers
     * init: general fixes + fixed some compiling warns
     * Drop SnapdragonCamera in favour of stock AOSP Camera2 app
+    * SuperSU: update to v2.78
+    * Settings: expose PhoneInfo (needed for some Carriers)
+    * Battery icons: updates, fixes and added battery bar feature
+    * Update sources to Android 6.0.1 release 66
+    * Immersive recents: completely reworked the code, now transitions are much more smoother
+    * RIL: removed old LP hack for NO SIM issue in Airplane Mode and fix things in a proper way
 
 #### 2016/08/12 (Stable 6)
 * Kernel
