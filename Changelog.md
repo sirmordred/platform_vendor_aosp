@@ -34,9 +34,26 @@
 ### Changelog (short)
 
 #### Ongoing changes... (Stable 8)
+* Kernel (Gemini)
+    * Stock prebuilt kernel (sigh)
+* Kernel (JFLTE)
+    * Small code updates
+* ROM
+    * Xiaomi Gemini bringup
+    * Port CAF additions from cm (mostly needed by Gemini)
+    * Telephony: general fixes, especially for MSIM devices (completely reworked the repos during Gemini bringup)
+    * MSIM: tons of fixes
+    * Build: completely rework device versioning and add support for custom builds
+    * Settings: general fixes (completely reworked the repo during Gemini bringup)
+    * General fixes on various repos
+    * Ported some CAF missing functions/enhancements on various repos
+    * WiFi: fixes and enhancements
+    * IMS: ported and fixed all CAF updates/functions/enhancements
+    * Blur: general fixes/enhancements
+    * jflte: Add support for Samsung extended AGPS
 
 #### 2016/09/10 (Stable 7)
-* Kernel
+* Kernel (JFLTE)
     * General code updates
     * Ramdisk: tune Thermal values
     * Ramdisk: small fixes and cleaning on scripts
@@ -72,7 +89,7 @@
     * RIL: removed old LP hack for NO SIM issue in Airplane Mode and fix things in a proper way
 
 #### 2016/08/12 (Stable 6)
-* Kernel
+* Kernel (JFLTE)
     * General code updates/fixes
     * Updated and fixed sdcardfs for stacked fs support + small fixes from Google
     * Fixed SM-S975 sensors
@@ -126,7 +143,7 @@
     * Updated translations
 
 #### 2016/07/26 (Stable 5 - OMS compatible)
-* Kernel
+* Kernel (JFLTE)
     * General code updates
     * ASoC: msm: small fixes
     * Ramdisk cleanout/optimisations
@@ -161,7 +178,7 @@
     * jf: thermal engine updates
 
 #### 2016/07/09 (Stable 4)
-* Kernel
+* Kernel (JFLTE)
     * General code updates
     * f2fs: general updates from 3.18 kernel
     * Ramdisk: update busybox to v1.26.0
@@ -187,7 +204,7 @@
     * Audio-msm8960: fix AudioEffect reply overflow
 
 #### 2016/06/19 (Stable 3)
-* Kernel
+* Kernel (JFLTE)
     * General code updates
     * ASoC: msm: Add flexible playback periods (fixes skip tracks sometimes not working with bt and other audio issue)
 * ROM
@@ -205,7 +222,7 @@
     * jflte: update partitions size and added missing BOARD_CACHEIMAGE_PARTITION_SIZE
 
 #### 2016/06/12 (Stable 2)
-* Kernel
+* Kernel (JFLTE)
     * General code update + fixes
     * Updated BusyBox
     * Update soources to latest Dorimanx updates
@@ -241,7 +258,7 @@
     * Bt: some clock fixes
 
 #### 2016/04/16 (Stable 1)
-* Kernel
+* Kernel (JFLTE)
     * General code update + fixes
     * More code ported from 3.10
     * Updated Toolchains (5.3.0) and Busybox (from official Master branch)
@@ -297,7 +314,7 @@
     * av: more fixes from cm and upstream
 
 #### 2016/03/14 (Beta 6)
-* Kernel
+* Kernel (JFLTE)
     * General code update
     * Ramdisk: cleaning and some small opimisation
     * FS / BLOCK / PROC / CPUFREQ / eCryptfs / FUSE / FS Drivers : Sync with 3.10 tree
@@ -354,7 +371,7 @@
     * art: improved speed when optimizing apps at first boot
 
 #### 2016/02/08 (Beta 5)
-* Kernel
+* Kernel (JFLTE)
     * General code update
     * Netd/wifi: updates and fixes
     * Added support for SGH-S970G and SM-S975L
@@ -396,7 +413,7 @@
     * Updated WebView to v49.0.2623.34 (big thanks to @JoseGalRe )
 
 #### 2016/01/10 (Beta 4)
-* Kernel
+* Kernel (JFLTE)
     * General code update
 * ROM
     * Browser: fixed incognito mode
@@ -421,7 +438,7 @@
     * SuperSU: back to 2.52 version, 2.66 does not work for some user
 
 #### 2016/01/06 (Beta 3)
-* Kernel
+* Kernel (JFLTE)
     * Fixed button vibration/lights when screeen is off
     * Fixed music sometimes stuttering when user turns off the screen
     * Fixed freeze when booting connected to an AC/USB cable
@@ -461,8 +478,7 @@
     * Updated LayersManager to v4.4.1
 
 #### 2015/12/24 (Beta 2)
-
-* Kernel
+* Kernel (JFLTE)
     * Updated bt drivers
     * More code update
 
@@ -489,8 +505,7 @@
     * Added Screencast
 
 #### 2015/12/06 (Beta 1)
-
-* Kernel
+* Kernel (JFLTE)
     * Fix exfat formatted sdcard mount and rw access
     * General code Update
 
