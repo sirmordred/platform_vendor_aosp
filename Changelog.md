@@ -37,6 +37,7 @@
 * Kernel (Gemini)
     * Stock prebuilt kernel (sigh)
 * Kernel (JFLTE)
+    * Compile with GCC 6.0.1 + fixed compiling warns
     * Small code updates
 * ROM
     * Xiaomi Gemini bringup
