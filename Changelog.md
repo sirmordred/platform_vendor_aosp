@@ -34,9 +34,23 @@
 ### Changelog (short)
 
 #### Ongoing changes...
+* Kernel (JFLTE)
+    * Compile with GCC 6.0.1 + fixed compiling warns
+    * Small code updates/fixes
+* ROM
+    * jflte: added support for Samsung extended AGPS
+    * jflte: Ramdisk cleaning + some small changes
+    * jflte: fully fixed GSM devices and handle loki in a cleaner way
+    * system/bt: disable bluedroid debug
+    * system/bt: fixed stuttering audio for Broadcom chipsets
+    * OMS/Substratum: updates and fixes (sync with latest official patchsets)
+    * Ported ALL CAF code in all our repos (temporary in separate branches as it cause more troubles than benefits, especially on BT)
+    * overlays: updated disabled components list for N
+    * Small Sepolicy fixes
+    * Fixes and updates for BFQIO cgroup
 
 #### Alpha 2 (20160902)
-* Kernel
+* Kernel (JFLTE)
     * Fixed boot on N
     * Ramdisk: updated and fixed scripts for N
     * Ramdisk: updated and fixed scripts for systemless root
