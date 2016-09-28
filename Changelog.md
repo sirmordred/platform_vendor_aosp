@@ -52,6 +52,20 @@
     * IMS: ported and fixed all CAF updates/functions/enhancements
     * Blur: general fixes/enhancements
     * jflte: Add support for Samsung extended AGPS
+    * Gemini: fix qcom keymaster
+    * STweaks: fixed profile check
+    * Fix SuperSU installation for block-based OTAs
+    * Gemini: enable fingerprint wakeup
+    * Gemini: enable dex pre-opt
+    * Gemini: move to Google webview beta version
+    * SuperSU: update to v2.78SR1
+    * Substratum: update to v231
+    * jflte: GPS: removed not used files/services
+    * msm8960: audio: fixes for voip and calls
+    * msm8960: display: fixes and improved portability
+    * Updated some translations
+    * Fixes for libcameraservice
+    * libutils: fix deadlock in elapsedRealtimeNano
 
 #### 2016/09/10 (Stable 7)
 * Kernel (JFLTE)
