@@ -83,6 +83,16 @@ PRODUCT_PACKAGES += \
     Substratum \
     tinymix
 
+# Extra JDCTeam tools
+PRODUCT_PACKAGES += \
+    7z \
+    bzip2 \
+    curl \
+    lib7z \
+    powertop \
+    pigz \
+    tinymix
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
