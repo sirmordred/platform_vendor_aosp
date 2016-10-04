@@ -35,7 +35,7 @@
 
 #### Ongoing changes... (Stable 8)
 * Kernel (Gemini)
-    * Stock prebuilt kernel (sigh)
+    * Drop prebuilt kernel in favour of compiled version
 * Kernel (JFLTE)
     * Compile with GCC 6.0.1 + fixed compiling warns
     * Small code updates
@@ -66,6 +66,9 @@
     * Updated some translations
     * Fixes for libcameraservice
     * libutils: fix deadlock in elapsedRealtimeNano
+    * Gemini: use WLAN driver builtin in kernel
+    * Gemini: fixed some selinux denials
+    * Gemini: update proprietary blobs
 
 #### 2016/09/10 (Stable 7)
 * Kernel (JFLTE)
