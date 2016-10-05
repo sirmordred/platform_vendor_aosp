@@ -36,9 +36,11 @@
 #### Ongoing changes... (Stable 8)
 * Kernel (Gemini)
     * Drop prebuilt kernel in favour of compiled version
+    * Enable Cpusets
 * Kernel (JFLTE)
     * Compile with GCC 6.0.1 + fixed compiling warns
     * Small code updates
+    * VoIP: fixes + updates
 * ROM
     * Xiaomi Gemini bringup
     * Port CAF additions from cm (mostly needed by Gemini)
@@ -69,6 +71,9 @@
     * Gemini: use WLAN driver builtin in kernel
     * Gemini: fixed some selinux denials
     * Gemini: update proprietary blobs
+    * jflte: remove some QC encoders from codecs list
+    * jflte: audio: fix VoIP usecases
+    * Update sources to Android 6.0.1 Release 70 (MOB31H)
 
 #### 2016/09/10 (Stable 7)
 * Kernel (JFLTE)
