@@ -37,6 +37,11 @@
 * Kernel (Gemini)
     * Drop prebuilt kernel in favour of compiled version
     * Enable Cpusets
+    * Update sources to Linux 3.18.42
+    * General code fixes from upstream
+    * qcacld-2.0: various fixes
+    * selinux: Android kernel compatibility with M userspace
+    * Enable CONFIG_SECURITY_PERF_EVENTS_RESTRICT
 * Kernel (JFLTE)
     * Compile with GCC 6.0.1 + fixed compiling warns
     * Small code updates
@@ -73,7 +78,7 @@
     * Gemini: update proprietary blobs
     * jflte: remove some QC encoders from codecs list
     * jflte: audio: fix VoIP usecases
-    * Update sources to Android 6.0.1 Release 70 (MOB31H)
+    * Update sources to Android 6.0.1 Release 72 (M4B30X)
 
 #### 2016/09/10 (Stable 7)
 * Kernel (JFLTE)
