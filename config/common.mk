@@ -64,6 +64,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     masquerade \
     OTAUpdates \
+    Screencast \
     Stk \
     Substratum \
     tinymix
