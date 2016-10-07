@@ -33,7 +33,9 @@
 
 ### Changelog (short)
 
-#### Ongoing changes... (Stable 8)
+#### Ongoing changes... (Stable 9)
+
+#### 2016/10/08 (Stable 8)
 * Kernel (Gemini)
     * Drop prebuilt kernel in favour of compiled version
     * Enable Cpusets
@@ -42,6 +44,7 @@
     * qcacld-2.0: various fixes
     * selinux: Android kernel compatibility with M userspace
     * Enable CONFIG_SECURITY_PERF_EVENTS_RESTRICT
+    * Added and enabled BFQ scheduler
 * Kernel (JFLTE)
     * Compile with GCC 6.0.1 + fixed compiling warns
     * Small code updates
@@ -79,6 +82,7 @@
     * jflte: remove some QC encoders from codecs list
     * jflte: audio: fix VoIP usecases
     * Update sources to Android 6.0.1 Release 72 (M4B30X)
+    * Fixed screen recording (New Screencast App)
 
 #### 2016/09/10 (Stable 7)
 * Kernel (JFLTE)
