@@ -45,6 +45,7 @@
     * selinux: Android kernel compatibility with M userspace
     * Enable CONFIG_SECURITY_PERF_EVENTS_RESTRICT
     * Added and enabled BFQ scheduler
+    * General updates/bug fixes/enhancements
 * Kernel (JFLTE)
     * Compile with GCC 6.0.1 + fixed compiling warns
     * Small code updates
@@ -83,6 +84,7 @@
     * jflte: audio: fix VoIP usecases
     * Update sources to Android 6.0.1 Release 72 (M4B30X)
     * Fixed screen recording (New Screencast App)
+    * Gemini: fixed ACDB issues with compiled kernel
 
 #### 2016/09/10 (Stable 7)
 * Kernel (JFLTE)
