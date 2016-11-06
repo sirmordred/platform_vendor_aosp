@@ -34,6 +34,21 @@
 ### Changelog (short)
 
 #### Ongoing changes... (Stable 9)
+* Kernel (Gemini)
+    * Fixed USB OTG
+    * Fixed sdcardfs
+    * General code update
+* Kernel (JFLTE)
+    * General code updates
+    * VoIP: more fixes + updates
+    * Fixed sdcardfs
+    * f2fs: full sync with 3.10.y stable branch
+    * Kernel Patch 3.4.112->113 (only missing/good parts)
+* ROM
+    * Gemini/Jflte: enable sdcardfs
+    * Add lg G5 international to build devices (WIP)
+    * jflte: remove unused graphics libraries
+    * jflte: more fixes for VoIP mixers
 
 #### 2016/10/08 (Stable 8)
 * Kernel (Gemini)
