@@ -49,6 +49,7 @@
     * Add lg G5 international to build devices (WIP)
     * jflte: remove unused graphics libraries
     * jflte: more fixes for VoIP mixers
+    * Substratum: update to v424
 
 #### 2016/10/08 (Stable 8)
 * Kernel (Gemini)
