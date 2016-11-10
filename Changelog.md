@@ -37,7 +37,8 @@
 * Kernel (Gemini)
     * Fixed USB OTG
     * Fixed sdcardfs
-    * General code update
+    * General code updates/fixes
+    * Updated sources to linux v3.18.44
 * Kernel (JFLTE)
     * General code updates
     * VoIP: more fixes + updates
@@ -50,6 +51,10 @@
     * jflte: remove unused graphics libraries
     * jflte: more fixes for VoIP mixers
     * Substratum: update to v424
+    * Update sources to Android 6.0.1 release 74
+    * Gemini: update blobs to MIUI V8.0.2.0 Global stable version
+    * Sensors: fix a memory leak
+    * WebWiev: update to latest stable and beta versions released by Google
 
 #### 2016/10/08 (Stable 8)
 * Kernel (Gemini)
