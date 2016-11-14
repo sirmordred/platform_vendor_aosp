@@ -38,7 +38,7 @@
     * Fixed USB OTG
     * Fixed sdcardfs
     * General code updates/fixes
-    * Updated sources to linux v3.18.44
+    * Updated sources to linux v3.18.31
 * Kernel (JFLTE)
     * General code updates
     * VoIP: more fixes + updates
@@ -50,7 +50,7 @@
     * Add lg G5 international to build devices (WIP)
     * jflte: remove unused graphics libraries
     * jflte: more fixes for VoIP mixers
-    * Substratum: update to v424
+    * Substratum: update to v470 (is needed a full uninstall/removing of installed themes and overlays!)
     * Update sources to Android 6.0.1 release 74
     * Gemini: update blobs to MIUI V8.0.2.0 Global stable version
     * Sensors: fix a memory leak
