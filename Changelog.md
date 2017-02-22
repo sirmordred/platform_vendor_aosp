@@ -33,7 +33,29 @@
 
 ### Changelog (short)
 
-#### Ongoing changes... (Stable 10)
+#### Ongoing changes... (Stable 11)
+
+### 2017/02/23 (Stable 10)
+* Kernel (JFLTE)
+    * General code updates
+    * f2fs: update driver to 3.18.y
+    * exFAT: update, fix and enable kernel driver
+    * sdcardfs: general bug fixes
+    * Ported binder changes from dorimanx kernel
+    * Fixed f2fs issues with SuperSU
+    * Disable CPUSET code and allow kernel to dist CPU PWR
+    * Update TC to Linaro GCC 6.3.0
+* ROM
+    * Update sources to Android 6.0.1 release 78
+    * JFLTE: exfat: use kernel driver
+    * JFLTE: enable sdcardfs
+    * SuperSU: update to v2.79 SR3
+    * Substratum: update to v510
+    * JFLTE: update webview to v57.0.2987.54 Beta
+    * Updated ROM TC with latest Linaro patches
+    * OTAUpdates: fix check and download of OTA packages
+    * APNs updates
+    * Build: do not dex preopt precompiled packages
 
 ### 2016/11/17 (Stable 9)
 * Kernel (Gemini)
