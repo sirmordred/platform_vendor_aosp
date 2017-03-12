@@ -33,7 +33,16 @@
 
 ### Changelog (short)
 
-#### Ongoing changes... (Stable 11)
+#### Ongoing changes... (Stable 12)
+
+### 2017/03/12 (Stable 11)
+* Kernel (JFLTE)
+    * sdcardfs: general bug fixes
+    * General code update
+* ROM
+    * Update sources to Android 6.0.1 release 79
+    * Toolbox: fixed for systemless root
+    * Substratum: fix masquerade for OMS3
 
 ### 2017/02/23 (Stable 10)
 * Kernel (JFLTE)
