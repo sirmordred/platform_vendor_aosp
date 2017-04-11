@@ -33,7 +33,12 @@
 
 ### Changelog (short)
 
-#### Ongoing changes... (Stable 12)
+#### 2017/04/12 (Stable 12 - EOL)
+* Kernel (JFLTE)
+    * Bypass SafetyNet check
+    * Fixed CVE-2017-0583
+* ROM
+    * Manually merged all aosp April release changes/fixes
 
 ### 2017/03/12 (Stable 11)
 * Kernel (JFLTE)
