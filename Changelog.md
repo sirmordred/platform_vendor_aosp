@@ -37,7 +37,9 @@
 
 ### Changelog (short)
 
-#### Ongoing changes (Stable 9)...
+#### Ongoing changes (Stable 10)...
+
+#### Stable 9
 * Kernel (Gemini)
     * General code updates
     * Reworked thermal setup
