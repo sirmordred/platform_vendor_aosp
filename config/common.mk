@@ -39,10 +39,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay/dictionaries
 
-# EXT4/F2FS format script
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/bin/format.sh:install/bin/format.sh
-
 # Custom JDCTeam packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
