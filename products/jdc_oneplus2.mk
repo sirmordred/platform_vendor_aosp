@@ -19,9 +19,8 @@ $(call inherit-product, device/oneplus/oneplus2/aosp_oneplus2.mk)
 PRODUCT_NAME := jdc_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_BRAND := oneplus
-PRODUCT_MANUFACTURER := Oneplus
-PRODUCT_MODEL := Oneplus 2
+PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MODEL := OnePlus 2
 
-DEVICE_MAINTAINERS := Muhammad Hamza (MZO9400)
+DEVICE_MAINTAINERS := MZO9400
 
-WITH_ROOT := true
