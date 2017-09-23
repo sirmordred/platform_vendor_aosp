@@ -38,6 +38,12 @@
 ### Changelog (short)
 
 #### Ongoing changes (Stable 10)...
+* Stock Kernel (Jflte)
+    * Update and sync sdcardfs driver (fixes all sdcardfs related issues)
+    * Migrate to Android AlarmTimer (fixes Bluetooth Share crashes)
+    * General code update
+* Kernel (Jflte)
+    * General code updates/fixes
 
 #### Stable 9
 * Kernel (Gemini)
