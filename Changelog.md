@@ -46,6 +46,11 @@
     * General code update
 * Kernel (Jflte)
     * General code updates/fixes
+* Kernel (Gemini)
+    * Merged CAF tag LA.UM.5.5.r1-05800-8x96.0
+    * Update qcacld-2.0 driver to CAF tag LA.UM.5.5.r1-05800-8x96.0
+    * f2fs: general updates/fixes
+    * General code updates
 * ROM
     * Jflte: add and enable display burn in protection
     * Jflte: move to source-compiled RIL
