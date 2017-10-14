@@ -37,13 +37,28 @@
 
 ### Changelog (short)
 
-#### Ongoing changes (Stable 10)...
+#### Ongoing changes...
+
+#### Stable 10
 * Stock Kernel (Jflte)
     * Update and sync sdcardfs driver (fixes all sdcardfs related issues)
     * Migrate to Android AlarmTimer (fixes Bluetooth Share crashes)
     * General code update
 * Kernel (Jflte)
     * General code updates/fixes
+* ROM
+    * Jflte: add and enable display burn in protection
+    * Jflte: move to source-compiled RIL
+    * jflte: CDMAs phones: allow audioserver connections for sec-ril libs
+    * Jflte: Camera: port O changes for Camera Wrapper
+    * Gemini: NFC: move to AOSP HAL
+    * Gemini: Update Blobs to 7.9.22
+    * Merged latest security patches (September)
+    * Merged CAF tag LA.UM.5.5.r1-05800-8x96.0 on various repos
+    * HALs: msm8996: merged CAF tag LA.UM.5.5.r1-05800-8x96.0
+    * Magisk: update to v14.0
+    * Substratum: update to v854
+    * Gemini: Removed speaker protection
 
 #### Stable 9
 * Kernel (Gemini)
