@@ -64,9 +64,6 @@ PRODUCT_PACKAGES += \
     mkfs.f2fs \
     fsck.f2fs \
     fibmap.f2fs \
-    mkfs.ntfs \
-    fsck.ntfs \
-    mount.ntfs \
     7z \
     bzip2 \
     curl \
