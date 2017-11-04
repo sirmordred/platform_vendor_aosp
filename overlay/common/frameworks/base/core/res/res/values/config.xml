@@ -49,14 +49,14 @@
 
     <!-- Defines the default set of global actions. Actions may still be disabled or hidden based
          on the current state of the device. -->
-    <string-array translatable="false" name="config_globalActionsList">
+    <!-- <string-array translatable="false" name="config_globalActionsList">
         <item>power</item>
         <item>restart</item>
         <item>profile</item>
         <item>airplane</item>
         <item>bugreport</item>
         <item>users</item>
-    </string-array>
+    </string-array> -->
 
     <!-- Set this to true to enable the platform's auto-power-save modes like doze and
          app standby.  These are not enabled by default because they require a standard
