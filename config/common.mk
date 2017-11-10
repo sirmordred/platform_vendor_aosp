@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
     ThemeInterfacer \
     Turbo
 
+# Default permissions
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/etc/privapp-permissions-jdc.xml:system/etc/permissions/privapp-permissions-jdc.xml
+
 # Extra tools
 PRODUCT_PACKAGES += \
     e2fsck \
