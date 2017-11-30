@@ -78,5 +78,9 @@
         <permission name="android.permission.READ_LOGS"/>
         <permission name="android.permission.REBOOT"/>
     </privapp-permissions>
+    <privapp-permissions
+            package="com.android.musicfx">
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+    </privapp-permissions>
 </permissions>
  
