@@ -15,7 +15,14 @@
 # include definitions for SDCLANG
 # include vendor/aosp/sdclang/sdclang.mk
 
-include vendor/aosp/config/version.mk
+ifndef JDC_BUILD_TYPE
+    JDC_BUILD_TYPE := ALPHA
+endif
+
+JDC_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(JDC_BUILD_TYPE)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.jdc.version=$(JDC_VERSION)
 
 PRODUCT_BRAND ?= JDCTeam
 
@@ -34,7 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
-
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay/dictionaries
@@ -42,16 +48,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Custom JDCTeam packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
-    Jelly \
     LatinIME \
-    Launcher3 \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    OTAUpdates \
-    Stk \
-    Substratum \
-    ThemeInterfacer \
-    Turbo
+    Launcher3
 
 # Default permissions
 PRODUCT_COPY_FILES += \
@@ -103,10 +101,6 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner
 
-# JDC-specific init file
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/init.local.rc:root/init.jdc.rc
-
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
@@ -114,10 +108,6 @@ PRODUCT_COPY_FILES += \
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-
-# Enable wireless Xbox 360 controller support
-PRODUCT_COPY_FILES += \
-    frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
     
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
@@ -140,11 +130,3 @@ PRODUCT_PACKAGES += \
 
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG ?= false
-
-# Magisk
-ifeq ($(WITH_ROOT),true)
- PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/magisk/Magisk.zip:install/magisk/Magisk.zip
-else
-$(warning Root method is undefined, please use 'WITH_ROOT := true' to define it)
-endif
